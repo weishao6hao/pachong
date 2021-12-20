@@ -79,7 +79,7 @@ if __name__ == '__main__':
     # pymysql 链接不是线程安全的
     connection1 = pymysql.connect(host='localhost',
                                   user='root',
-                                  password='dqeelk521',
+                                  password='-----',
                                   db='music',
                                   charset='utf8',
                                   cursorclass=pymysql.cursors.DictCursor)
